@@ -32,9 +32,9 @@ O histórico tem um método que é adicionar transação, ele também tem um arg
 A classe abstrata Interface, é uma classe pai, então ela tem um método registrador que recebe uma conta, assim também temos duas classes que implementam essa interface.
 As classes que implementam a abstrata da transação são: uma de depósito e a outra é a de saque, ambos têm os atributos do valor e consequentemente a implementação do método registrador.
 Cliente de classe
-A classe cliente tem:
+<h1>A classe cliente tem:</h1>
 
-<h1>endereço;</h1>
+endereço;
 e tem uma lista de contas - que é do tipo conta;
 2 operações:
 o primeiro é realizar a transação - ele recebe dois atributos, que seria uma conta e a transação, onde a conta é do tipo conta e a transação é do tipo aqui da classe que estava na transação, então pode ser um saque, passar um depósito, mas a gente vai olhar ai para saber se temos um polimorfismo .
