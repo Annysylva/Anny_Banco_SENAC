@@ -39,7 +39,7 @@ class SistemaBancario:
 
     def iniciar_sistema(self):
         nome_usuario = input("Digite o nome do usuário: ")
-        self.conta = ContaAnnySyva(nome_usuario)
+        self.conta = ContaAnnySylva(nome_usuario)
 
         while True:
             print("\nOpções:")
